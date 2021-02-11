@@ -67,10 +67,55 @@ body {
     flex-flow: row nowrap;
     background-color: black;
     justify-content: center;
+    height: 230px;
 }
 #footer h3 {
     font-size: 30px;
     color: white;
-    height: 130px;
     padding-top: 80px;
+}
+.seccion_js {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 500px;
+    align-items: center;
+
+}
+.seccion_js h3 {
+    font-size: 35px;
+    color: teal;
+}
+.seccion_js p {
+    font-size: 20px;
+    font-weight: bold;
+}
+.estilo_js {
+    background-color: teal;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    height: 500px;
+    padding-top: 35px;
+}
+.estilo_js a {
+    text-decoration: none;
+    color: black;
+}
+#footer_js {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: black;
+    justify-content: center;
+    height: 450px;
+}
+#footer_js h3 {
+    font-size: 30px;
+    color: white;
+    padding-top: 200px;
+}    
+.seccion_js button {
+    padding: 15px;
+}
+.boton1 {
+    margin-bottom: 50px;
 }
