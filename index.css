@@ -1,0 +1,49 @@
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0 auto;
+}
+#header {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: black;
+    height: 300px;
+}
+.Introduccion {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    color: teal;
+    padding-top: 100px;
+}
+#navegacion {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 130px;
+    margin-top: 30px;
+}
+.menu {
+    display: flex;
+    flex-flow: column nowrap;
+}
+.menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    justify-content: space-around;
+}
+.menu li {
+    background-color: teal;
+    padding: 10px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.menu a:hover {
+    color: chocolate;
+}
